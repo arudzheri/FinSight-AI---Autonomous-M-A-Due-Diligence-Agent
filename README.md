@@ -59,7 +59,7 @@ TAVILY_API_KEY=your_tavily_api_key_here
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com
+   git clone https://github.com/arudzheri/FinSight-AI-Autonomous-M-A-Due-Diligence-Agent
    cd finsight-ai
    ```
 
