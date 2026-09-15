@@ -13,7 +13,7 @@ export const runResearchAgent = async (companyName: string): Promise<ResearchRes
 
   try {
     // Използваме Tavily REST API за дълбоко търсене, оптимизирано за LLM контекст
-    const response = await axios.post('https://tavily.com', {
+    const response = await axios.post('https://api.tavily.com/search', {
       api_key: tavilyApiKey,
       query: searchPrompt,
       search_depth: 'advanced',
